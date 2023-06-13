@@ -3,7 +3,7 @@ html {
   width: 100%; /* This covers 100% of whatever we see! */
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed;
+  background: img no-repeat center center fixed;
   background-size: cover;
 }
 h1 {
