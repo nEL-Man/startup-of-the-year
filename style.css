@@ -1,0 +1,102 @@
+/*Selector {
+	Property: value;
+}
+*/
+/*Cascading Style Sheet = C. S. S. */
+
+html {
+	background-color : lightskyblue;
+}
+h2 {
+	color: /*HEX Code*/ #AA4139;
+	text-align: center;
+	border: /*Solidness*/ 5px /*Type of line*/ solid /*color-type*/ darkkhaki; /* there is also other thing to denote the color type instead of just the hex number. 
+
+rbg(###, ###, ###)/rgba(###, ###, ###, OPACITY)*/
+	cursor: /*type of cursor required when hovering on top of it.*/ pointer;
+
+}
+a:hover {
+	color: green;
+
+}
+
+body {}
+
+li, h2 /*This is a ELEMENT!!*/{
+	list-style: none;
+	text-align: center;
+}
+
+.banana {
+	border: 5px dashed blue;
+}
+
+#div1 {
+	background: lightseagreen;
+}
+.onepara{
+	text-decoration: underline /* OR linethrough*/;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: "Times New Roman, Georgia";
+}
+	
+#Hello {
+	float: right;
+}
+footer {
+	clear: both;
+	text-align: center;
+}
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20 px;
+	text-align: center;
+	width: 33px;
+	height: 33px;
+}
+.test {
+	font-size: 20px;
+}
+span { 
+	font-size: 25px;
+ }
+/* STUFF
+
+No, no... It's just-
+
+CSS Cheat Sheet
+
+CASCADING STYLE SHEETS AT THE MOST BASIC LEVEL IT INDICATES THAT THE ORDER OF CSS RULES MATTER. 
+
+.class
+#id
+*
+element
+element, element
+element element 
+element > element 
+elemant + element
+:hover
+:last-child
+:first-child
+!important (not recommended) This breaks the rule of Cascading style 
+
+What selector win out in the cascade depends on:
+
+-> Specificity 
+-> Importance 
+-> Source order
+
+Phew! Those were tough ones thrown out to you, I guess you have enough knowledge about it.. 
+
+At the end! Not now, not now. For sure, not now... Again, not now.. 
+
+AFTER UNDERSTANDING: "Easy man!"
+*/
