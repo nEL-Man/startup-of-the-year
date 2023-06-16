@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   width: 100%; /* This covers 100% of whatever we see! */
   height: 100%;
   font-family: 'Montserrat', sans-serif;
